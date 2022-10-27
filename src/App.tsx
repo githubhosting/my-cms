@@ -221,7 +221,7 @@ export default function App() {
   return (
     <FirebaseCMSApp
       name={"My Online Shop"}
-      authentication={true}
+      authentication={myAuthenticator}
       collections={[productsCollection]}
       firebaseConfig={firebaseConfig}
     />
